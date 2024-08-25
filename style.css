@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+}
+.message {
+    text-align: center;
+}
+.input {
+    max-width: 700px;
+    min-width: 500px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.bolum {
+    display: flex;
+    justify-content: center;
+}
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+}
